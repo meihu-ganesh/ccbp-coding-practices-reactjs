@@ -46,7 +46,7 @@ class FruitsCounter extends Component {
             <div className="counter-control">
               <img
                 className="fruit-image"
-                alt="mango"
+                alt="banana"
                 src="https://assets.ccbp.in/frontend/react-js/banana-img.png"
               />
               <div className="button-container">
