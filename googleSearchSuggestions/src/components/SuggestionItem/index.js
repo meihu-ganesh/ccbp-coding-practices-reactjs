@@ -10,7 +10,7 @@ const SuggestionItem = props => {
   }
 
   return (
-    <li className="suggestion-list">
+    <li className="suggestion-item">
       <p className="suggestion-text">{suggestion}</p>
       <button
         type="button"
