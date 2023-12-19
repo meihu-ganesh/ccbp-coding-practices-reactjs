@@ -46,7 +46,7 @@ class MoneyManager extends Component {
       amount: parseInt(amountInput),
       type: displayText,
     }
-
+    // console.log(newTransaction)
     this.setState(prevState => ({
       transactionsList: [...prevState.transactionsList, newTransaction],
       titleInput: '',
@@ -71,7 +71,7 @@ class MoneyManager extends Component {
     const {transactionsList} = this.state
     let expensesAmount = 0
 
-    transactionsList.foreach(eachTransaction => {
+    transactionsList.forEach(eachTransaction => {
       if (eachTransaction.type === transactionTypeOptions[1].displayText) {
         expensesAmount += eachTransaction.amount
       }
